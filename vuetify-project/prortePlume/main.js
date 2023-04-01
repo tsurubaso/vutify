@@ -1,18 +1,17 @@
-//pdfjs-dist
+
 //Google Docs Viewer ou PDF.js
 //https://cdnjs.com/libraries/pdf.js
-/*
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
 
 
-<script>
+
+
+
+
 		// Récupération du conteneur
 		const container = document.getElementById('pdfContainer');
 
 		// Chargement du PDF
-		pdfjsLib.getDocument('https://www.example.com/mon-pdf.pdf').then(pdf => {
+		pdfjsLib.getDocument('https://drive.google.com/file/d/1--fs0w6U0c5vqFjf8rF9UGX_Fa9KlXFw/view?usp=share_link').then(pdf => {
 			// Chargement de la première page
 			pdf.getPage(1).then(page => {
 				const scale = 1.5;
@@ -31,6 +30,4 @@
 				});
 			});
 		});
-	</script>
-
-    */
+	
