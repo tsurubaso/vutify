@@ -1,10 +1,10 @@
 body {
-  background-color: #e8e8e8;
+  background-color: #636363;
   margin: 0;
   padding: 0;
 }
 .page {
-  background-color: white;
+  background-color: whitesmoke;
   width: 21cm;
   height: 29.7cm;
   margin: 1cm auto;
@@ -19,3 +19,30 @@ h1 {
   font-weight: bold;
   text-decoration: underline;
 }
+p {
+  margin-bottom: 30px;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  height: 40px;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
