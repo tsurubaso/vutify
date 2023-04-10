@@ -1,8 +1,7 @@
 <template>
     <v-row>
         <v-col
-        cols="1"
-        v-for="n in 12">
+        cols="1">
             <v-card>
                 Hello
             </v-card>
