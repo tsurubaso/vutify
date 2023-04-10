@@ -1,11 +1,24 @@
 <template>
-  <v-app>
-    <v-main>
-      <HelloWorld />
-    </v-main>
-  </v-app>
+
+<v-app>
+  <!-- sidebar -->
+    <sideBar/>
+
+  
+  <v-main>
+    <v-card>
+<ImageGallery>
+  Hello
+</ImageGallery>
+    </v-card>
+  </v-main>
+
+</v-app>
 </template>
 
 <script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+
+ import ImageGallery from './components/imageGallery.vue';
+import sideBar from './components/sideBar.vue';
+
 </script>
