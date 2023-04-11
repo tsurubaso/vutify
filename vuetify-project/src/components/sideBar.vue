@@ -38,6 +38,6 @@
 
 
         </v-list>
-        hello
+        
     </v-navigation-drawer>
 </template>

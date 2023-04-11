@@ -8,7 +8,7 @@
   <v-main>
     <v-card>
 <ImageGallery>
-  Hello
+
 </ImageGallery>
     </v-card>
   </v-main>
