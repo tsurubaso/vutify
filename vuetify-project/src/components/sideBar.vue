@@ -1,3 +1,21 @@
+
+<script setup>
+import { defineEmits } from 'vue';
+const emits=defineEmits(['selectOption'])
+
+const selectOption=(isColor)=>{
+    emits("selectOption",isColor)
+}
+
+
+
+</script>
+
+
+
+
+
+
 <template>
     <v-navigation-drawer expand-on-hover rail><v-list>
             <v-list-item prepend-avatar="https://randomuser.me/api/portraits/lego/2.jpg" title="Sylvain Bilhaud"
@@ -22,14 +40,16 @@
                <v-list-item
                prepend-icon="mdi mdi-image"
                title="color gallery"
-               value="color">
+               value="color"
+               @click="selectOption(true)">
                
                
                </v-list-item>
                <v-list-item
                prepend-icon="mdi mdi-dialpad"
                title="gray gallery"
-               value="color">
+               value="color"
+               @click="selectOption(false)">
                
                
                </v-list-item>
